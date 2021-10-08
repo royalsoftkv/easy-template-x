@@ -15,7 +15,7 @@ export class MimeTypeHelper {
             case MimeType.Png:
                 return 'png';
             case MimeType.Jpeg:
-                return 'jpg';
+                return 'jpeg';
             case MimeType.Gif:
                 return 'gif';
             case MimeType.Bmp:
