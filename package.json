@@ -37,8 +37,7 @@
     "build-types": "tsc -p tsconfig.types.json --emitDeclarationOnly",
     "build": "yarn build-types && yarn build-src",
     "release": "yarn clean && yarn quality && yarn build",
-    "prepare": "npm run build",
-    "install": "npm run build"
+    "prepare": "npm run build"
   },
   "dependencies": {
     "jszip": "3.6.0",
